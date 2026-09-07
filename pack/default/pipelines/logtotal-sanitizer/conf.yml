@@ -1,0 +1,20 @@
+description: Sanitize sensitive log data with all default LogTotal rules.
+functions:
+  - id: comment
+    filter: "true"
+    description: Pipeline overview and secret requirement.
+    conf:
+      comment: >-
+        Replaces sensitive values in `_raw` with deterministic pseudonyms using
+        LogTotal. Requires the `logtotal_sanitizer_key` text secret. Preserves all
+        other fields and sets `__logtotal_sanitized` when a value changes.
+  - id: logtotal_sanitize
+    filter: "true"
+    description: >-
+      Sanitizes the configured field using the selected rules and secret key.
+      Defaults to `_raw` with all built-in detectors enabled.
+    conf:
+      key: C.Secret('logtotal_sanitizer_key', 'text').value
+      field: _raw
+      additionalRules: ""
+      aggressive: false

@@ -1,0 +1,25 @@
+{
+  "name": "cc-stream-logtotal-sanitizer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cribl Pack for deterministic sensitive-data sanitization with LogTotal",
+  "displayName": "LogTotal Sanitizer",
+  "author": "M3NIX",
+  "tags": {
+    "dataType": ["logs"],
+    "useCase": ["filtering"],
+    "streamtags": ["sanitization", "pseudonymization", "pii", "logtotal"]
+  },
+  "minLogStreamVersion": "4.19.2",
+  "scripts": {
+    "test": "node --test",
+    "package": "./scripts/package-release.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@socprime/logtotal-sanitizer": "0.1.0-beta.0"
+  }
+}

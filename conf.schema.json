@@ -1,0 +1,79 @@
+{
+  "type": "object",
+  "title": "",
+  "required": ["key"],
+  "properties": {
+    "key": {
+      "title": "Sanitization Key Expression",
+      "description": "JavaScript expression that must resolve to a non-empty string. Quote literal values. For a Cribl Secret, use C.Secret('logtotal_sanitizer_key', 'text').value.",
+      "type": "string",
+      "jsExpression": true
+    },
+    "field": {
+      "title": "Field",
+      "description": "Event field whose string value will be sanitized.",
+      "type": "string",
+      "default": "_raw"
+    },
+    "rules": {
+      "title": "Sanitization Rules",
+      "description": "Rules are applied in this order. An explicitly empty list disables all built-in rules.",
+      "type": "array",
+      "uniqueItems": true,
+      "default": [
+        "secrets",
+        "sessionCookies",
+        "paymentInfo",
+        "govIds",
+        "healthInfo",
+        "phoneNumbers",
+        "ips",
+        "hosts",
+        "users",
+        "geoLocation",
+        "paths"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "secrets",
+          "sessionCookies",
+          "paymentInfo",
+          "govIds",
+          "healthInfo",
+          "phoneNumbers",
+          "ips",
+          "hosts",
+          "users",
+          "geoLocation",
+          "paths"
+        ],
+        "enumNames": [
+          "Secrets / API Keys / Tokens",
+          "Session Cookies",
+          "Payment Information",
+          "Government IDs",
+          "Health Information",
+          "Phone Numbers",
+          "IP / MAC Addresses",
+          "Hosts / FQDNs",
+          "Users / Email Addresses",
+          "Geolocation",
+          "Filesystem Paths"
+        ]
+      }
+    },
+    "additionalRules": {
+      "title": "Additional Rules (JSON)",
+      "description": "Optional JSON array of native LogTotal rule objects. Rules run after selected built-in rules, in array order.",
+      "type": "string",
+      "default": ""
+    },
+    "aggressive": {
+      "title": "Aggressive Matching",
+      "description": "Enable broader matching. This can increase coverage, CPU usage, and false positives.",
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,5 @@
+dist/
+lib/*.cjs
+lib/LOGTOTAL-SANITIZER-LICENSE
+node_modules/
+*.tgz

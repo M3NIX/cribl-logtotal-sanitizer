@@ -1,0 +1,100 @@
+{"_raw":"ticket CASE-123456: user alice@example.com logged in to server01.example.internal from 10.20.30.40; token=ghp_1234567890abcdefghijklmnopqrstuvwxyz; phone=+32 470 12 34 56; path=/home/alice/private/report.csv","source":"logtotal-preview","_time":1788771600.125}
+{"_raw":"retry for alice@example.com from 10.20.30.40 on server01.example.internal reading /home/alice/private/report.csv","source":"logtotal-preview","_time":1788771601.125}
+{"_raw":"control event without sensitive data","source":"logtotal-preview","_time":1788771602.125}
+{"_raw":"file opened by user4@example.com: /home/demo4/private/report.csv","source":"logtotal-preview","_time":1788771603.125}
+{"_raw":"connection src=192.0.2.5 dst=198.51.100.5 mac=02:00:00:00:00:05","source":"logtotal-preview","_time":1788771604.125}
+{"_raw":"request to https://server6.example.com/api from 192.0.2.6 user=user6@example.com","source":"logtotal-preview","_time":1788771605.125}
+{"_raw":"ticket CASE-123463: assigned to user7@example.com from 192.0.2.7","source":"logtotal-preview","_time":1788771606.125}
+{"_raw":"authentication failed\nuser=user8@example.com\nsource=192.0.2.8\nhost=server8.example.com","source":"logtotal-preview","_time":1788771607.125}
+{"_raw":"authorization: Bearer synthetic_demo_token_01_abcdefghijklmnopqrstuvwxyz","source":"logtotal-preview","_time":1788771608.125}
+{"_raw":"control event without sensitive data","source":"logtotal-preview","_time":1788771609.125}
+{"_raw":"login accepted user=user3@example.com src=192.0.2.3 host=server3.example.com","source":"logtotal-preview","_time":1788771610.125}
+{"_raw":"login retry user=user4@example.com src=192.0.2.4 host=server4.example.com","source":"logtotal-preview","_time":1788771611.125}
+{"_raw":"{\"user\": \"user5@example.com\", \"client_ip\": \"192.0.2.5\", \"host\": \"server5.example.com\", \"action\": \"download\"}","source":"logtotal-preview","_time":1788771612.125}
+{"_raw":"file opened by user6@example.com: /home/demo6/private/report.csv","source":"logtotal-preview","_time":1788771613.125}
+{"_raw":"connection src=192.0.2.7 dst=198.51.100.7 mac=02:00:00:00:00:07","source":"logtotal-preview","_time":1788771614.125}
+{"_raw":"request to https://server8.example.com/api from 192.0.2.8 user=user8@example.com","source":"logtotal-preview","_time":1788771615.125}
+{"_raw":"ticket CASE-123457: assigned to user1@example.com from 192.0.2.1","source":"logtotal-preview","_time":1788771616.125}
+{"_raw":"authentication failed\nuser=user2@example.com\nsource=192.0.2.2\nhost=server2.example.com","source":"logtotal-preview","_time":1788771617.125}
+{"_raw":"authorization: Bearer synthetic_demo_token_03_abcdefghijklmnopqrstuvwxyz","source":"logtotal-preview","_time":1788771618.125}
+{"_raw":"control event without sensitive data","source":"logtotal-preview","_time":1788771619.125}
+{"_raw":"login accepted user=user5@example.com src=192.0.2.5 host=server5.example.com","source":"logtotal-preview","_time":1788771620.125}
+{"_raw":"login retry user=user6@example.com src=192.0.2.6 host=server6.example.com","source":"logtotal-preview","_time":1788771621.125}
+{"_raw":"{\"user\": \"user7@example.com\", \"client_ip\": \"192.0.2.7\", \"host\": \"server7.example.com\", \"action\": \"download\"}","source":"logtotal-preview","_time":1788771622.125}
+{"_raw":"file opened by user8@example.com: /home/demo8/private/report.csv","source":"logtotal-preview","_time":1788771623.125}
+{"_raw":"connection src=192.0.2.1 dst=198.51.100.1 mac=02:00:00:00:00:01","source":"logtotal-preview","_time":1788771624.125}
+{"_raw":"request to https://server2.example.com/api from 192.0.2.2 user=user2@example.com","source":"logtotal-preview","_time":1788771625.125}
+{"_raw":"ticket CASE-123459: assigned to user3@example.com from 192.0.2.3","source":"logtotal-preview","_time":1788771626.125}
+{"_raw":"authentication failed\nuser=user4@example.com\nsource=192.0.2.4\nhost=server4.example.com","source":"logtotal-preview","_time":1788771627.125}
+{"_raw":"authorization: Bearer synthetic_demo_token_05_abcdefghijklmnopqrstuvwxyz","source":"logtotal-preview","_time":1788771628.125}
+{"_raw":"control event without sensitive data","source":"logtotal-preview","_time":1788771629.125}
+{"_raw":"login accepted user=user7@example.com src=192.0.2.7 host=server7.example.com","source":"logtotal-preview","_time":1788771630.125}
+{"_raw":"login retry user=user8@example.com src=192.0.2.8 host=server8.example.com","source":"logtotal-preview","_time":1788771631.125}
+{"_raw":"{\"user\": \"user1@example.com\", \"client_ip\": \"192.0.2.1\", \"host\": \"server1.example.com\", \"action\": \"download\"}","source":"logtotal-preview","_time":1788771632.125}
+{"_raw":"file opened by user2@example.com: /home/demo2/private/report.csv","source":"logtotal-preview","_time":1788771633.125}
+{"_raw":"connection src=192.0.2.3 dst=198.51.100.3 mac=02:00:00:00:00:03","source":"logtotal-preview","_time":1788771634.125}
+{"_raw":"request to https://server4.example.com/api from 192.0.2.4 user=user4@example.com","source":"logtotal-preview","_time":1788771635.125}
+{"_raw":"ticket CASE-123461: assigned to user5@example.com from 192.0.2.5","source":"logtotal-preview","_time":1788771636.125}
+{"_raw":"authentication failed\nuser=user6@example.com\nsource=192.0.2.6\nhost=server6.example.com","source":"logtotal-preview","_time":1788771637.125}
+{"_raw":"authorization: Bearer synthetic_demo_token_07_abcdefghijklmnopqrstuvwxyz","source":"logtotal-preview","_time":1788771638.125}
+{"_raw":"control event without sensitive data","source":"logtotal-preview","_time":1788771639.125}
+{"_raw":"login accepted user=user1@example.com src=192.0.2.1 host=server1.example.com","source":"logtotal-preview","_time":1788771640.125}
+{"_raw":"login retry user=user2@example.com src=192.0.2.2 host=server2.example.com","source":"logtotal-preview","_time":1788771641.125}
+{"_raw":"{\"user\": \"user3@example.com\", \"client_ip\": \"192.0.2.3\", \"host\": \"server3.example.com\", \"action\": \"download\"}","source":"logtotal-preview","_time":1788771642.125}
+{"_raw":"file opened by user4@example.com: /home/demo4/private/report.csv","source":"logtotal-preview","_time":1788771643.125}
+{"_raw":"connection src=192.0.2.5 dst=198.51.100.5 mac=02:00:00:00:00:05","source":"logtotal-preview","_time":1788771644.125}
+{"_raw":"request to https://server6.example.com/api from 192.0.2.6 user=user6@example.com","source":"logtotal-preview","_time":1788771645.125}
+{"_raw":"ticket CASE-123463: assigned to user7@example.com from 192.0.2.7","source":"logtotal-preview","_time":1788771646.125}
+{"_raw":"authentication failed\nuser=user8@example.com\nsource=192.0.2.8\nhost=server8.example.com","source":"logtotal-preview","_time":1788771647.125}
+{"_raw":"authorization: Bearer synthetic_demo_token_01_abcdefghijklmnopqrstuvwxyz","source":"logtotal-preview","_time":1788771648.125}
+{"_raw":"control event without sensitive data","source":"logtotal-preview","_time":1788771649.125}
+{"_raw":"login accepted user=user3@example.com src=192.0.2.3 host=server3.example.com","source":"logtotal-preview","_time":1788771650.125}
+{"_raw":"login retry user=user4@example.com src=192.0.2.4 host=server4.example.com","source":"logtotal-preview","_time":1788771651.125}
+{"_raw":"{\"user\": \"user5@example.com\", \"client_ip\": \"192.0.2.5\", \"host\": \"server5.example.com\", \"action\": \"download\"}","source":"logtotal-preview","_time":1788771652.125}
+{"_raw":"file opened by user6@example.com: /home/demo6/private/report.csv","source":"logtotal-preview","_time":1788771653.125}
+{"_raw":"connection src=192.0.2.7 dst=198.51.100.7 mac=02:00:00:00:00:07","source":"logtotal-preview","_time":1788771654.125}
+{"_raw":"request to https://server8.example.com/api from 192.0.2.8 user=user8@example.com","source":"logtotal-preview","_time":1788771655.125}
+{"_raw":"ticket CASE-123457: assigned to user1@example.com from 192.0.2.1","source":"logtotal-preview","_time":1788771656.125}
+{"_raw":"authentication failed\nuser=user2@example.com\nsource=192.0.2.2\nhost=server2.example.com","source":"logtotal-preview","_time":1788771657.125}
+{"_raw":"authorization: Bearer synthetic_demo_token_03_abcdefghijklmnopqrstuvwxyz","source":"logtotal-preview","_time":1788771658.125}
+{"_raw":"control event without sensitive data","source":"logtotal-preview","_time":1788771659.125}
+{"_raw":"login accepted user=user5@example.com src=192.0.2.5 host=server5.example.com","source":"logtotal-preview","_time":1788771660.125}
+{"_raw":"login retry user=user6@example.com src=192.0.2.6 host=server6.example.com","source":"logtotal-preview","_time":1788771661.125}
+{"_raw":"{\"user\": \"user7@example.com\", \"client_ip\": \"192.0.2.7\", \"host\": \"server7.example.com\", \"action\": \"download\"}","source":"logtotal-preview","_time":1788771662.125}
+{"_raw":"file opened by user8@example.com: /home/demo8/private/report.csv","source":"logtotal-preview","_time":1788771663.125}
+{"_raw":"connection src=192.0.2.1 dst=198.51.100.1 mac=02:00:00:00:00:01","source":"logtotal-preview","_time":1788771664.125}
+{"_raw":"request to https://server2.example.com/api from 192.0.2.2 user=user2@example.com","source":"logtotal-preview","_time":1788771665.125}
+{"_raw":"ticket CASE-123459: assigned to user3@example.com from 192.0.2.3","source":"logtotal-preview","_time":1788771666.125}
+{"_raw":"authentication failed\nuser=user4@example.com\nsource=192.0.2.4\nhost=server4.example.com","source":"logtotal-preview","_time":1788771667.125}
+{"_raw":"authorization: Bearer synthetic_demo_token_05_abcdefghijklmnopqrstuvwxyz","source":"logtotal-preview","_time":1788771668.125}
+{"_raw":"control event without sensitive data","source":"logtotal-preview","_time":1788771669.125}
+{"_raw":"login accepted user=user7@example.com src=192.0.2.7 host=server7.example.com","source":"logtotal-preview","_time":1788771670.125}
+{"_raw":"login retry user=user8@example.com src=192.0.2.8 host=server8.example.com","source":"logtotal-preview","_time":1788771671.125}
+{"_raw":"{\"user\": \"user1@example.com\", \"client_ip\": \"192.0.2.1\", \"host\": \"server1.example.com\", \"action\": \"download\"}","source":"logtotal-preview","_time":1788771672.125}
+{"_raw":"file opened by user2@example.com: /home/demo2/private/report.csv","source":"logtotal-preview","_time":1788771673.125}
+{"_raw":"connection src=192.0.2.3 dst=198.51.100.3 mac=02:00:00:00:00:03","source":"logtotal-preview","_time":1788771674.125}
+{"_raw":"request to https://server4.example.com/api from 192.0.2.4 user=user4@example.com","source":"logtotal-preview","_time":1788771675.125}
+{"_raw":"ticket CASE-123461: assigned to user5@example.com from 192.0.2.5","source":"logtotal-preview","_time":1788771676.125}
+{"_raw":"authentication failed\nuser=user6@example.com\nsource=192.0.2.6\nhost=server6.example.com","source":"logtotal-preview","_time":1788771677.125}
+{"_raw":"authorization: Bearer synthetic_demo_token_07_abcdefghijklmnopqrstuvwxyz","source":"logtotal-preview","_time":1788771678.125}
+{"_raw":"control event without sensitive data","source":"logtotal-preview","_time":1788771679.125}
+{"_raw":"login accepted user=user1@example.com src=192.0.2.1 host=server1.example.com","source":"logtotal-preview","_time":1788771680.125}
+{"_raw":"login retry user=user2@example.com src=192.0.2.2 host=server2.example.com","source":"logtotal-preview","_time":1788771681.125}
+{"_raw":"{\"user\": \"user3@example.com\", \"client_ip\": \"192.0.2.3\", \"host\": \"server3.example.com\", \"action\": \"download\"}","source":"logtotal-preview","_time":1788771682.125}
+{"_raw":"file opened by user4@example.com: /home/demo4/private/report.csv","source":"logtotal-preview","_time":1788771683.125}
+{"_raw":"connection src=192.0.2.5 dst=198.51.100.5 mac=02:00:00:00:00:05","source":"logtotal-preview","_time":1788771684.125}
+{"_raw":"request to https://server6.example.com/api from 192.0.2.6 user=user6@example.com","source":"logtotal-preview","_time":1788771685.125}
+{"_raw":"ticket CASE-123463: assigned to user7@example.com from 192.0.2.7","source":"logtotal-preview","_time":1788771686.125}
+{"_raw":"authentication failed\nuser=user8@example.com\nsource=192.0.2.8\nhost=server8.example.com","source":"logtotal-preview","_time":1788771687.125}
+{"_raw":"authorization: Bearer synthetic_demo_token_01_abcdefghijklmnopqrstuvwxyz","source":"logtotal-preview","_time":1788771688.125}
+{"_raw":"control event without sensitive data","source":"logtotal-preview","_time":1788771689.125}
+{"_raw":"login accepted user=user3@example.com src=192.0.2.3 host=server3.example.com","source":"logtotal-preview","_time":1788771690.125}
+{"_raw":"login retry user=user4@example.com src=192.0.2.4 host=server4.example.com","source":"logtotal-preview","_time":1788771691.125}
+{"_raw":"{\"user\": \"user5@example.com\", \"client_ip\": \"192.0.2.5\", \"host\": \"server5.example.com\", \"action\": \"download\"}","source":"logtotal-preview","_time":1788771692.125}
+{"_raw":"file opened by user6@example.com: /home/demo6/private/report.csv","source":"logtotal-preview","_time":1788771693.125}
+{"_raw":"connection src=192.0.2.7 dst=198.51.100.7 mac=02:00:00:00:00:07","source":"logtotal-preview","_time":1788771694.125}
+{"_raw":"request to https://server8.example.com/api from 192.0.2.8 user=user8@example.com","source":"logtotal-preview","_time":1788771695.125}
+{"_raw":"ticket CASE-123457: assigned to user1@example.com from 192.0.2.1","source":"logtotal-preview","_time":1788771696.125}
+{"_raw":"authentication failed\nuser=user2@example.com\nsource=192.0.2.2\nhost=server2.example.com","source":"logtotal-preview","_time":1788771697.125}
+{"_raw":"authorization: Bearer synthetic_demo_token_03_abcdefghijklmnopqrstuvwxyz","source":"logtotal-preview","_time":1788771698.125}
+{"_raw":"control event without sensitive data","source":"logtotal-preview","_time":1788771699.125}

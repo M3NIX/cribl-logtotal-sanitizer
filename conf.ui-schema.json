@@ -1,0 +1,22 @@
+{
+  "key": {
+    "ui:widget": "JsInput",
+    "ui:placeholder": "C.Secret('logtotal_sanitizer_key', 'text').value"
+  },
+  "field": {
+    "ui:placeholder": "_raw"
+  },
+  "rules": {
+    "ui:field": "Tags",
+    "ui:options": {
+      "orderable": true
+    }
+  },
+  "additionalRules": {
+    "ui:widget": "textarea",
+    "ui:placeholder": "[{\n  \"id\": \"ticket\",\n  \"label\": \"Ticket IDs\",\n  \"description\": \"Internal ticket numbers\",\n  \"mode\": \"pseudo\",\n  \"token\": \"TICKET\",\n  \"patterns\": [\"(?:CASE-\\\\d{6})\"]\n}]",
+    "ui:options": {
+      "rows": 14
+    }
+  }
+}

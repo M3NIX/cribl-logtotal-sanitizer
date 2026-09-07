@@ -1,0 +1,13 @@
+routes:
+  - id: logtotal_sanitizer
+    name: LogTotal Sanitizer
+    description: Sanitize events with a nonempty string _raw field.
+    filter: "typeof _raw === 'string' && _raw.length > 0"
+    pipeline: logtotal-sanitizer
+    final: true
+  - id: default
+    name: default
+    description: Pass other events through unchanged.
+    filter: "true"
+    pipeline: passthru
+    final: true
